@@ -1,12 +1,37 @@
-#important{
-    color: red;
+.tabla{
+    display: table;
+    width: auto;
+    height: auto;
 }
 
-h2{
-    color: green;
-
+.titulo{
+    display: table-caption;
+    text-align: left;
+    font-weight: bold;
+    font-size: larger;
 }
 
-p{
-    color: seagreen;
+.cabeza{
+    display: table-row;
+    text-align: left;
+}
+
+.fila{
+    display: table-row;
+}
+
+.celda{
+    display: table-cell;
+}
+.si{
+    width: 20px; 
+    height: 10px; 
+    background: #13cf52;
+    display: table-cell;
+}
+.no{
+    width: 20px; 
+    height: 10px; 
+    background: #ade7ad;
+    display: table-cell;
 }
